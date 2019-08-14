@@ -3,3 +3,7 @@
 <h2>This is the fanciest fancy update.</h2>
 
 <h3>How amaze!</h3>
+
+<% Note.all.each do |note| %>
+  <h4><%= note.content %></h4>
+<% end %>
